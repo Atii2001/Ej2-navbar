@@ -35,21 +35,15 @@ nav{
     background-color: /* #CCC8AA */ white;
     /* padding: 10px; */
     width: 100%;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
-
-
-
 
 picture img{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     height: 50px;
-    width: 50px;
-   
+    width: 50px; 
 }
 
 ul{
@@ -58,10 +52,7 @@ ul{
     flex-wrap: nowrap;
     list-style: none;
     gap: 50px; 
-   
 }
-
-
 #busqueda{
     width: 300px;
     
@@ -72,8 +63,10 @@ nav ul input{
 }
 
 ul img{
+    display: flex;
     height: 40px;
     width: 40px;
+    justify-items: center;
 }
 
 input{
