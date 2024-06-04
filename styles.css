@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +8,7 @@
 }
 
 body{
-    background-color: #E0D8B0;
+    background-color: #987070;
 }
 
 .nav-enlace{
@@ -17,7 +20,8 @@ body{
     text-decoration: none;
     border: 1px solid black;
     align-items: center;
-    
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
 .nav-barra{
@@ -25,14 +29,14 @@ body{
 }
 
 .nav-enlace:hover{
-    background-color: #E0D8B0;
+    background-color: #DBB5B5;
 }
 
 nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    background-color: /* #CCC8AA */ white;
+    background-color: /* #CCC8AA */ #F1E5D1;
     /* padding: 10px; */
     width: 100%;
     align-items: center;   
@@ -42,8 +46,8 @@ picture img{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    height: 50px;
-    width: 50px; 
+    height: 80px;
+    width: 80px; 
 }
 
 ul{
@@ -52,6 +56,7 @@ ul{
     flex-wrap: nowrap;
     list-style: none;
     gap: 50px; 
+    
 }
 #busqueda{
     width: 300px;
@@ -74,3 +79,106 @@ input{
     height: 40px;
 }
 
+.banner-img{
+    display: flex;
+    
+    padding: 70px;
+    
+    background-color: #DBB5B5;
+    
+    width: 100%;
+    height: 400px;
+}
+
+.banner-img ul{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+.banner-h1{
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner-p1{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.butt-cta{
+    padding: 10px;
+    border: 2px solid #987070;
+    border-radius: 1rem;
+    
+    background-color: beige;
+    color: black;
+
+    position: relative;
+    left: 70px;
+    
+    font-size: 15px;
+    
+}
+
+.butt-learnmore{
+    padding: 10px;
+    border: 2px solid #987070;
+    border-radius: 1rem;
+
+    background-color: beige;
+    color: black;
+
+    position: relative;
+    right: 70px;
+    
+    font-size: 15px;
+
+}
+
+#banner-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 100%;
+
+    align-content: center;
+    text-align: center;
+
+}
+
+.banner-anillos{
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+
+    width: 600px;
+    height: 300px;
+}
+
+footer div .footer-mision{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 25px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+
+    padding: 40px 300px;
+}
